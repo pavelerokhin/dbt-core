@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: dimension
+    description: The product dimension
+    columns:
+      - name: product_id
+        description: Surrogate PK
+      - name: product_name
+        description: complete product name
+      - name: category
+        description: complete category name
+      - name: created_at
+        description: The timestamp at which the product was created in db
+      - name: updated_at
+        description: The timestamp at which the product was changed

@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: fact
+    description: Fact table for sales
+    columns:
+      - name: transaction_id
+        description: id of the transaction
+      - name: product_id
+        description: id of the product
+      - name: quantity
+        description: quantity of the product sold
+      - name: total_amount
+        description: total amount of the transaction
+      - name: sales_date
+        description: date of the transaction
