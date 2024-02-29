@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: datawarehouse
     database: datawarehouse
-    description: test data warehouse with 1 fact table sales and 1 dimension table product
+    description: test data warehouse with 1 fact table sales and 1 dimension table
     schema: public
     loader: PipelineWise
     tables:
